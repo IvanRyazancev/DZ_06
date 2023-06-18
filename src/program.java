@@ -12,7 +12,7 @@ public class program {
         double x = controller.setNumber1();
         double y = controller.setNumber2();
 
-        System.out.println("Введите что будем делать (складывать/вычитать/перемножать/делить? ");
+        System.out.println("Введите что будем делать ( + / - / * / / ? ");
         Scanner scanner1 = new Scanner(System.in);
         String op = scanner1.nextLine();
 
@@ -35,7 +35,7 @@ public class program {
         double a = controller2.setNumber1();
         double b = controller2.setNumber2();
 
-        System.out.println("Введите что будем делать (складывать/вычитать/перемножать/делить? ");
+        System.out.println("Введите что будем делать (+ / - / * / / ? ");
         Scanner scanner2 = new Scanner(System.in);
         String op2 = scanner1.nextLine();
 
